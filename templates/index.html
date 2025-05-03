@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Station</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌡️ Weather Station</h1>
+    <p><strong>Temperature:</strong> {{ data.temperature }} °C</p>
+    <p><strong>Humidity:</strong> {{ data.humidity }} %</p>
+    <p><small>Last updated: {{ data.timestamp }}</small></p>
+</body>
+</html>
